@@ -5,8 +5,9 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import lombok.Builder;
 import lombok.Data;
-
+@Builder
 @Data
 public class PessoaRequestDTO {
 
